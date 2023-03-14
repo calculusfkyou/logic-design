@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/DLL_11111102/lab1-1/lab1_1/Circuit_with_UDP_02467.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Circuit_with_UDP_02467
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/DLL_11111102/lab1-1/lab1_1/t_Circuit_with_UDP_02467.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module t_Circuit_with_UDP_02467
