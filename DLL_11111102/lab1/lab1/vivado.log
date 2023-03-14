@@ -1,0 +1,21 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Tue Mar 14 14:07:21 2023
+# Process ID: 6684
+# Current directory: D:/DLL_11111102/lab1/lab1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent2200 D:\DLL_11111102\lab1\lab1\lab1.xpr
+# Log file: D:/DLL_11111102/lab1/lab1/vivado.log
+# Journal file: D:/DLL_11111102/lab1/lab1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/DLL_11111102/lab1/lab1/lab1.xpr
+WARNING: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'D:/DLL_11111102/lab1/lab1/lab1.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.2/data/ip'.
+open_project: Time (s): cpu = 00:00:09 ; elapsed = 00:00:07 . Memory (MB): peak = 1146.641 ; gain = 0.000
+update_compile_order -fileset sources_1
