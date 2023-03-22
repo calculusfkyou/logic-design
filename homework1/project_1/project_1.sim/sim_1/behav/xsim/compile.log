@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/11111102/homework1/BCD2Excess6.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module BCD2Excess6
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/11111102/homework1/tb_BCD2Excess6.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_BCD2Excess6
