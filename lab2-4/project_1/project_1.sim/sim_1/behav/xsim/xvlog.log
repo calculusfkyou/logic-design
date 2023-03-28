@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/11111102/lab2-4/mux_2x1_df.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux_2x1_df
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/11111102/lab2-4/t_mux_2x1_df.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module t_mux_2x1_df
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/11111102/lab2-4/project_1/project_1.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

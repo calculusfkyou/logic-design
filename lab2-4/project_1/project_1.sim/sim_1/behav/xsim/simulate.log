@@ -1,0 +1,8 @@
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+                  time   Select  A     B    m_out
+                   0    1       0     1     0
+                  10    1       1     0     1
+                  20    0       1     0     0
+                  30    0       0     1     1
+$finish called at time : 50 ns : File "D:/11111102/lab2-4/t_mux_2x1_df.v" Line 9
