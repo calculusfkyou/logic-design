@@ -1,4 +1,0 @@
-Running: xsim.dir/t_Circuit_with_UDP_02467_behav/xsimk.exe -simmode gui -wdb t_Circuit_with_UDP_02467_behav.wdb -simrunnum 0 -socket 49953
-Design successfully loaded
-Design Loading Memory Usage: 6080 KB (Peak: 6080 KB)
-Design Loading CPU Usage: 15 ms
