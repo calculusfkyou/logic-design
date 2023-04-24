@@ -1,6 +1,6 @@
 module ALU(a,b,op,result,overflow);
 	input [3:0] a,[3:0] b,[2:0] op;
-	output [3:0], overflow;
+	output [3:0]result, overflow;
 	
 	reg [4:0] Result;
 	
