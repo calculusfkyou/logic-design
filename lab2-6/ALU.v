@@ -5,7 +5,7 @@ module ALU(a,b,op,result,overflow);
 	reg [4:0] Result;
 	
 	assign result=Result[3:0],
-		overflow=(op==3b'000 || 3b'001)?Result[4]:0;
+		overflow=(op==3b'000 || op==3b'001)?Result[4]:0;
 		
 	always@(a,b,op)
 		begin
