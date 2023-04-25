@@ -15,7 +15,7 @@ module ALU(a,b,op,result,overflow);
 				3'b100: Result=a&b;//AND
 				3'b101: Result=a|b;//OR
 				3'b110: Result=a^b;//XOR
-				3'b111: Result=~(a||b);//NOR
+				3'b111: Result=~(a|b);//NOR
 			endcase
 		end
 endmodule
