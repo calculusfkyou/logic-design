@@ -2,7 +2,7 @@ module problem1(
   output  y_out, 
   input x_in, clock, reset
 );
-  reg [1: 0]state, next_state;
+  reg [1: 0]state;
   parameter	S0=2'b00,S1=2'b01,S2=2'b10,S3 =2'b11;
 
   always@(posedge clock,negedge reset)
