@@ -8,10 +8,10 @@ module problem3(
   always@(posedge clock,negedge reset)
     if (reset==0) state<=a;
     else case(state)
-      a:if(x_in) begin state<=b; y_out<=0;end  else begin state<=f; y_out<=0;end
-      b:if(x_in) begin state<=a; y_out<=0;end  else begin state<=d; y_out<=0;end
-      d:if(x_in) begin state<=a; y_out<=0;end  else begin state<=g; y_out<=1;end
-      f:if(x_in) begin state<=b; y_out<=1;end  else begin state<=f; y_out<=1;end
-	  g:if(x_in) begin state<=d; y_out<=1;end  else begin state<=g; y_out<=0;end
+      a:if(x_in) begin state<=b; assign y_out=0;end  else begin state<=f;assign  y_out=0;end
+      b:if(x_in) begin state<=a; assign y_out=0;end  else begin state<=d; assign y_out=0;end
+      d:if(x_in) begin state<=a; assign y_out=0;end  else begin state<=g; assign y_out=1;end
+      f:if(x_in) begin state<=b; assign y_out=1;end  else begin state<=f;assign  y_out=1;end
+	  g:if(x_in) begin state<=d; assign y_out=1;end  else begin state<=g; assign y_out=0;end
     endcase 	
 endmodule 
