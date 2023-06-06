@@ -23,4 +23,4 @@ module problem2(Q8,Q4,Q2,Q1,count,clear);
     JK_flip_flop J1(Q2,Q8_not,1,Q1,clear);
     JK_flip_flop J2(Q4,1,1,Q2,clear);
     JK_flip_flop J3(Q8,j_Q8,1,Q1,clear);
-endmodule
+endmodule 
