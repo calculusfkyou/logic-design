@@ -9,10 +9,10 @@ module Mealy_Zero_Detector(
 		else state<=next_state;
 	always@(state,x_in)
 		case(state)
-			S0:if(x_in) next_state<=S1; else next_state<=S0;
-			S1:if(x_in) next_state<=S3; else next_state<=S0;
-			S2:if(x_in) next_state<=S2; else next_state<=S0;
-			S3:if(x_in) next_state<=S2; else next_state<=S0;
+			S0:if(x_in) next_state=S1; else next_state=S0;
+			S1:if(x_in) next_state=S3; else next_state=S0;
+			S2:if(x_in) next_state=S2; else next_state=S0;
+			S3:if(x_in) next_state=S2; else next_state=S0;
 		endcase
 	always@(state,x_in)
 		case(state)

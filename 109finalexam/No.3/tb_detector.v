@@ -2,7 +2,7 @@ module tb_detector;
 	wire y_out;
 	reg x_in,clock,reset;
 	detector uut(.y_out(y_out),.x_in(x_in),.clock(clock),.reset(reset));
-	initial #100 $finish;
+	initial #70 $finish;
 	always #5 clock=~clock;
 	initial 
 		begin 
