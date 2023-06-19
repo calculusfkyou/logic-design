@@ -10,10 +10,10 @@ module detector(
 			case(state)
 				S0:if(x_in) state<=S0; else state<=S1;
 				S1:if(x_in) state<=S2; else state<=S1;
-				S2:if(x_in) state<=S3;
-				S3:if(x_in) state<=S4;
-				S4:if(x_in) state<=S5;
-				S5:if(x_in) state<=S0;
+				S2:state<=S3;
+				S3:state<=S4;
+				S4:state<=S5;
+				S5:state<=S0;
 			endcase
 	assign y_out=(state==S2)||(state==S3);
 endmodule
